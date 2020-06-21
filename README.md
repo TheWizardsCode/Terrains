@@ -1,4 +1,3 @@
-# Terrains
 Unity Heightmaps, Terrains and Gaia Biomes.
 
 # Submodules
@@ -8,6 +7,9 @@ This repository uses a set of submodules, be sure to check out with:
 ```
 git clone --recurse-submodules [repo URI]
 ```
+# Terrains
+
+In the [AssetsScenes](https://github.com/3dtbd/Terrains/tree/master/Assets/Scenes) you will find a number of terrains for your use. For the most part you will want to use these as heightmaps and apply your own texturing and vegetation. However, many of the terrains also come with versions that use a set of open source textures and models to demostrate what they might look like when planted. These assets are included as submobules so be sure to check them out (see above).
 
 # Gaia Biomes
 
