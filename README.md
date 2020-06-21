@@ -1,5 +1,5 @@
 # Terrains
-Unity Heightmaps and Terrains
+Unity Heightmaps, Terrains and Gaia Biomes.
 
 # Submodules
 
