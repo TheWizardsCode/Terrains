@@ -40,10 +40,10 @@ MonoBehaviour:
       m_detailPrototypeFileName: 
       m_detailTexture: {fileID: 2800000, guid: 483374976c51d1f48ba29ba4bc49d60c, type: 3}
       m_detailTextureFileName: 
-      m_minWidth: 0.8
-      m_maxWidth: 1.2
-      m_minHeight: 0.8
-      m_maxHeight: 1.2
+      m_minWidth: 0.5
+      m_maxWidth: 0.8
+      m_minHeight: 0.5
+      m_maxHeight: 0.8
       m_noiseSpread: 0.3
       m_bendFactor: 0
       m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
@@ -62,10 +62,10 @@ MonoBehaviour:
       m_detailPrototypeFileName: 
       m_detailTexture: {fileID: 2800000, guid: a6793503051f0364598b7177accd676d, type: 3}
       m_detailTextureFileName: 
-      m_minWidth: 0.8
-      m_maxWidth: 1.2
-      m_minHeight: 0.8
-      m_maxHeight: 1.2
+      m_minWidth: 0.5
+      m_maxWidth: 0.8
+      m_minHeight: 0.5
+      m_maxHeight: 0.8
       m_noiseSpread: 0.3
       m_bendFactor: 0
       m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
@@ -84,10 +84,10 @@ MonoBehaviour:
       m_detailPrototypeFileName: 
       m_detailTexture: {fileID: 2800000, guid: e84be62c4596b1b4584205d26c097b7e, type: 3}
       m_detailTextureFileName: 
-      m_minWidth: 1
-      m_maxWidth: 2
-      m_minHeight: 1
-      m_maxHeight: 2
+      m_minWidth: 0.5
+      m_maxWidth: 0.8
+      m_minHeight: 0.5
+      m_maxHeight: 0.8
       m_noiseSpread: 0.3
       m_bendFactor: 0
       m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
@@ -106,10 +106,10 @@ MonoBehaviour:
       m_detailPrototypeFileName: 
       m_detailTexture: {fileID: 2800000, guid: d822c4d6edcd5a046b39ab6ab58ccb4d, type: 3}
       m_detailTextureFileName: 
-      m_minWidth: 1
-      m_maxWidth: 2
-      m_minHeight: 1
-      m_maxHeight: 2
+      m_minWidth: 0.5
+      m_maxWidth: 0.8
+      m_minHeight: 0.5
+      m_maxHeight: 0.8
       m_noiseSpread: 0.3
       m_bendFactor: 0
       m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
@@ -128,10 +128,10 @@ MonoBehaviour:
       m_detailPrototypeFileName: 
       m_detailTexture: {fileID: 2800000, guid: 9a440efb8e5ab1540b7af1ac6edd5b5e, type: 3}
       m_detailTextureFileName: 
-      m_minWidth: 1
-      m_maxWidth: 2
-      m_minHeight: 1
-      m_maxHeight: 2
+      m_minWidth: 0.5
+      m_maxWidth: 0.8
+      m_minHeight: 0.5
+      m_maxHeight: 0.8
       m_noiseSpread: 0.3
       m_bendFactor: 0
       m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_isWorldmapSpawner: 0
   m_spawnRange: 1024
   m_generateRandomSeed: 1
-  m_randomSeed: 949339480
+  m_randomSeed: 265971211
   m_resourcesPath: 
   m_spawnerRules:
   - m_name: Grass01
@@ -381,13 +381,13 @@ MonoBehaviour:
     m_noiseStrength: 1
     m_noiseInvert: 0
     m_isActive: 1
-    m_isFoldedOut: 0
+    m_isFoldedOut: 1
     m_currInstanceCnt: 0
     m_activeInstanceCnt: 0
     m_inactiveInstanceCnt: 0
-    m_resourceSettingsFoldedOut: 0
+    m_resourceSettingsFoldedOut: 1
     m_isHelpActive: 0
-    m_spawnedInstances: 0
+    m_spawnedInstances: 324906
     m_goSpawnTargetMode: 0
     m_goSpawnTarget: {fileID: 0}
     m_terrainGOSpawnTargetName: Gaia Game Object Spawns
@@ -615,13 +615,13 @@ MonoBehaviour:
     m_noiseStrength: 1
     m_noiseInvert: 0
     m_isActive: 1
-    m_isFoldedOut: 0
+    m_isFoldedOut: 1
     m_currInstanceCnt: 0
     m_activeInstanceCnt: 0
     m_inactiveInstanceCnt: 0
-    m_resourceSettingsFoldedOut: 0
+    m_resourceSettingsFoldedOut: 1
     m_isHelpActive: 0
-    m_spawnedInstances: 0
+    m_spawnedInstances: 272989
     m_goSpawnTargetMode: 0
     m_goSpawnTarget: {fileID: 0}
     m_terrainGOSpawnTargetName: Gaia Game Object Spawns
@@ -656,13 +656,13 @@ MonoBehaviour:
     m_noiseStrength: 1
     m_noiseInvert: 0
     m_isActive: 1
-    m_isFoldedOut: 0
+    m_isFoldedOut: 1
     m_currInstanceCnt: 0
     m_activeInstanceCnt: 0
     m_inactiveInstanceCnt: 0
-    m_resourceSettingsFoldedOut: 0
+    m_resourceSettingsFoldedOut: 1
     m_isHelpActive: 0
-    m_spawnedInstances: 0
+    m_spawnedInstances: 7175589
     m_goSpawnTargetMode: 0
     m_goSpawnTarget: {fileID: 0}
     m_terrainGOSpawnTargetName: Gaia Game Object Spawns
@@ -845,7 +845,7 @@ MonoBehaviour:
         coordSpace: 0
         noiseAssetGUID: 
       m_ShowNoiseTransformSettings: 0
-      m_ShowNoisePreviewTexture: 1
+      m_ShowNoisePreviewTexture: 0
       m_noisePreviewTextureLocked: 0
       m_ShowNoiseTypeSettings: 0
       m_collisionMaskExpanded: 1
@@ -890,17 +890,17 @@ MonoBehaviour:
     m_noiseStrength: 1
     m_noiseInvert: 0
     m_isActive: 1
-    m_isFoldedOut: 0
+    m_isFoldedOut: 1
     m_currInstanceCnt: 0
     m_activeInstanceCnt: 0
     m_inactiveInstanceCnt: 0
-    m_resourceSettingsFoldedOut: 0
+    m_resourceSettingsFoldedOut: 1
     m_isHelpActive: 0
-    m_spawnedInstances: 0
+    m_spawnedInstances: 473747
     m_goSpawnTargetMode: 0
     m_goSpawnTarget: {fileID: 0}
     m_terrainGOSpawnTargetName: Gaia Game Object Spawns
-    m_terrainDetailDensity: 15
+    m_terrainDetailDensity: 23
     m_terrainDetailMinFitness: 0.5
     m_terrainDetailFitnessBeginFadeOut: 0.6
     m_createdBiomeController: {fileID: 0}
@@ -1111,7 +1111,7 @@ MonoBehaviour:
       m_textureMaskSpawnRuleGUID: 
       m_concavity: 1
       m_concavityFeatureSize: 10
-      m_foldedOut: 1
+      m_foldedOut: 0
       m_selectedWorldBiomeMaskGUID: 
     m_visualisationColor: {r: 0.74605155, g: 0.80222553, b: 0.6139375, a: 1}
     m_noiseMask: 0
@@ -1124,17 +1124,17 @@ MonoBehaviour:
     m_noiseStrength: 1
     m_noiseInvert: 0
     m_isActive: 1
-    m_isFoldedOut: 0
+    m_isFoldedOut: 1
     m_currInstanceCnt: 0
     m_activeInstanceCnt: 0
     m_inactiveInstanceCnt: 0
-    m_resourceSettingsFoldedOut: 0
+    m_resourceSettingsFoldedOut: 1
     m_isHelpActive: 0
-    m_spawnedInstances: 0
+    m_spawnedInstances: 3644736
     m_goSpawnTargetMode: 0
     m_goSpawnTarget: {fileID: 0}
     m_terrainGOSpawnTargetName: Gaia Game Object Spawns
-    m_terrainDetailDensity: 15
+    m_terrainDetailDensity: 22
     m_terrainDetailMinFitness: 0.5
     m_terrainDetailFitnessBeginFadeOut: 0.6
     m_createdBiomeController: {fileID: 0}
