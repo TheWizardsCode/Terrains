@@ -1068,7 +1068,7 @@ MonoBehaviour:
   m_isWorldmapSpawner: 0
   m_spawnRange: 1024
   m_generateRandomSeed: 1
-  m_randomSeed: 1343976158
+  m_randomSeed: 883130258
   m_resourcesPath: 
   m_spawnerRules:
   - m_name: Alocasia
@@ -1094,8 +1094,8 @@ MonoBehaviour:
       m_blendMode: 0
       m_strength: 1
       m_seaLevel: 50
-      m_maxWorldHeight: 240.8272
-      m_minWorldHeight: 36.002197
+      m_maxWorldHeight: 253.82799
+      m_minWorldHeight: 49.00299
       m_xOffSet: 0
       m_zOffSet: 0
       m_xOffSetScalar: 0
@@ -1288,7 +1288,7 @@ MonoBehaviour:
     m_inactiveInstanceCnt: 0
     m_resourceSettingsFoldedOut: 0
     m_isHelpActive: 0
-    m_spawnedInstances: 0
+    m_spawnedInstances: 565
     m_goSpawnTargetMode: 0
     m_goSpawnTarget: {fileID: 0}
     m_terrainGOSpawnTargetName: Gaia Game Object Spawns
@@ -1329,7 +1329,7 @@ MonoBehaviour:
     m_inactiveInstanceCnt: 0
     m_resourceSettingsFoldedOut: 0
     m_isHelpActive: 0
-    m_spawnedInstances: 0
+    m_spawnedInstances: 1079
     m_goSpawnTargetMode: 0
     m_goSpawnTarget: {fileID: 0}
     m_terrainGOSpawnTargetName: Gaia Game Object Spawns
@@ -1360,8 +1360,8 @@ MonoBehaviour:
       m_blendMode: 0
       m_strength: 1
       m_seaLevel: 50
-      m_maxWorldHeight: 240.8272
-      m_minWorldHeight: 36.002197
+      m_maxWorldHeight: 253.82799
+      m_minWorldHeight: 49.00299
       m_xOffSet: 0
       m_zOffSet: 0
       m_xOffSetScalar: 0
@@ -1545,7 +1545,7 @@ MonoBehaviour:
     m_inactiveInstanceCnt: 0
     m_resourceSettingsFoldedOut: 0
     m_isHelpActive: 0
-    m_spawnedInstances: 0
+    m_spawnedInstances: 99
     m_goSpawnTargetMode: 0
     m_goSpawnTarget: {fileID: 0}
     m_terrainGOSpawnTargetName: Gaia Game Object Spawns
@@ -1576,8 +1576,8 @@ MonoBehaviour:
       m_blendMode: 0
       m_strength: 1
       m_seaLevel: 50
-      m_maxWorldHeight: 240.8272
-      m_minWorldHeight: 36.002197
+      m_maxWorldHeight: 253.82799
+      m_minWorldHeight: 49.00299
       m_xOffSet: 0
       m_zOffSet: 0
       m_xOffSetScalar: 0
@@ -1761,7 +1761,7 @@ MonoBehaviour:
     m_inactiveInstanceCnt: 0
     m_resourceSettingsFoldedOut: 0
     m_isHelpActive: 0
-    m_spawnedInstances: 0
+    m_spawnedInstances: 123
     m_goSpawnTargetMode: 0
     m_goSpawnTarget: {fileID: 0}
     m_terrainGOSpawnTargetName: Gaia Game Object Spawns
@@ -1772,7 +1772,7 @@ MonoBehaviour:
   - m_name: Fern Cover
     m_guid: 87f22070-dfe8-43d7-8d7e-248f317bcb67
     m_useExtendedSpawn: 0
-    m_minRequiredFitness: 0.25
+    m_minRequiredFitness: 0.174
     m_failureRate: 0
     m_maxInstances: 40000000
     m_ignoreMaxInstances: 0
@@ -1792,8 +1792,8 @@ MonoBehaviour:
       m_blendMode: 0
       m_strength: 1
       m_seaLevel: 50
-      m_maxWorldHeight: 240.8272
-      m_minWorldHeight: 36.002197
+      m_maxWorldHeight: 253.82799
+      m_minWorldHeight: 49.00299
       m_xOffSet: 0
       m_zOffSet: 0
       m_xOffSetScalar: 0
@@ -1980,13 +1980,13 @@ MonoBehaviour:
     m_noiseStrength: 1
     m_noiseInvert: 0
     m_isActive: 1
-    m_isFoldedOut: 0
+    m_isFoldedOut: 1
     m_currInstanceCnt: 0
     m_activeInstanceCnt: 0
     m_inactiveInstanceCnt: 0
-    m_resourceSettingsFoldedOut: 0
+    m_resourceSettingsFoldedOut: 1
     m_isHelpActive: 0
-    m_spawnedInstances: 0
+    m_spawnedInstances: 10074
     m_goSpawnTargetMode: 0
     m_goSpawnTarget: {fileID: 0}
     m_terrainGOSpawnTargetName: Gaia Game Object Spawns
@@ -2027,7 +2027,7 @@ MonoBehaviour:
     m_inactiveInstanceCnt: 0
     m_resourceSettingsFoldedOut: 0
     m_isHelpActive: 0
-    m_spawnedInstances: 0
+    m_spawnedInstances: 952
     m_goSpawnTargetMode: 0
     m_goSpawnTarget: {fileID: 0}
     m_terrainGOSpawnTargetName: Gaia Game Object Spawns
@@ -2047,8 +2047,8 @@ MonoBehaviour:
     m_blendMode: 0
     m_strength: 1
     m_seaLevel: 50
-    m_maxWorldHeight: 240.8272
-    m_minWorldHeight: 36.002197
+    m_maxWorldHeight: 253.82799
+    m_minWorldHeight: 49.00299
     m_xOffSet: 0
     m_zOffSet: 0
     m_xOffSetScalar: 0
@@ -2222,8 +2222,8 @@ MonoBehaviour:
     m_blendMode: 3
     m_strength: 1
     m_seaLevel: 50
-    m_maxWorldHeight: 240.8272
-    m_minWorldHeight: 36.002197
+    m_maxWorldHeight: 253.82799
+    m_minWorldHeight: 49.00299
     m_xOffSet: 0
     m_zOffSet: 0
     m_xOffSetScalar: 0
@@ -2397,8 +2397,8 @@ MonoBehaviour:
     m_blendMode: 0
     m_strength: 1
     m_seaLevel: 50
-    m_maxWorldHeight: 240.8272
-    m_minWorldHeight: 36.002197
+    m_maxWorldHeight: 253.82799
+    m_minWorldHeight: 49.00299
     m_xOffSet: 0
     m_zOffSet: 0
     m_xOffSetScalar: 0

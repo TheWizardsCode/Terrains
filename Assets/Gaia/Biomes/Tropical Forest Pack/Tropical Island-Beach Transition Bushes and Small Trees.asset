@@ -86,7 +86,7 @@ MonoBehaviour:
   m_isWorldmapSpawner: 0
   m_spawnRange: 1024
   m_generateRandomSeed: 1
-  m_randomSeed: 236131867
+  m_randomSeed: 1510343777
   m_resourcesPath: 
   m_spawnerRules:
   - m_name: BananaTree01_LOD
@@ -122,7 +122,7 @@ MonoBehaviour:
     m_inactiveInstanceCnt: 0
     m_resourceSettingsFoldedOut: 0
     m_isHelpActive: 0
-    m_spawnedInstances: 0
+    m_spawnedInstances: 311
     m_goSpawnTargetMode: 0
     m_goSpawnTarget: {fileID: 0}
     m_terrainGOSpawnTargetName: Gaia Game Object Spawns
@@ -163,7 +163,7 @@ MonoBehaviour:
     m_inactiveInstanceCnt: 0
     m_resourceSettingsFoldedOut: 0
     m_isHelpActive: 0
-    m_spawnedInstances: 0
+    m_spawnedInstances: 308
     m_goSpawnTargetMode: 0
     m_goSpawnTarget: {fileID: 0}
     m_terrainGOSpawnTargetName: Gaia Game Object Spawns
@@ -183,8 +183,8 @@ MonoBehaviour:
     m_blendMode: 0
     m_strength: 1
     m_seaLevel: 50
-    m_maxWorldHeight: 240.8272
-    m_minWorldHeight: 36.002197
+    m_maxWorldHeight: 253.82799
+    m_minWorldHeight: 49.00299
     m_xOffSet: 0
     m_zOffSet: 0
     m_xOffSetScalar: 0
@@ -358,8 +358,8 @@ MonoBehaviour:
     m_blendMode: 0
     m_strength: 1
     m_seaLevel: 50
-    m_maxWorldHeight: 240.8272
-    m_minWorldHeight: 36.002197
+    m_maxWorldHeight: 253.82799
+    m_minWorldHeight: 49.00299
     m_xOffSet: 0
     m_zOffSet: 0
     m_xOffSetScalar: 0
@@ -551,8 +551,8 @@ MonoBehaviour:
     m_blendMode: 0
     m_strength: 1
     m_seaLevel: 50
-    m_maxWorldHeight: 240.8272
-    m_minWorldHeight: 36.002197
+    m_maxWorldHeight: 253.82799
+    m_minWorldHeight: 49.00299
     m_xOffSet: 0
     m_zOffSet: 0
     m_xOffSetScalar: 0
