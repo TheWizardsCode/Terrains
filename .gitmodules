@@ -1,0 +1,12 @@
+[submodule "Assets/package-manager"]
+	path = Assets/package-manager
+	url = git@github.com:TheWizardsCode/unity-package-tools.git
+[submodule "Assets/Models"]
+	path = Assets/Models
+	url = git@github.com:TheWizardsCode/Models.git
+[submodule "Assets/Textures"]
+	path = Assets/Textures
+	url = git@github.com:TheWizardsCode/Textures.git
+[submodule "Assets/Workflows"]
+	path = Assets/Workflows
+	url = git@github.com:TheWizardsCode/Workflows.git
