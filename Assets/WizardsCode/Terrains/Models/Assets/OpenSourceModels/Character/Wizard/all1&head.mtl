@@ -1,0 +1,17 @@
+# Created with Anim8or 0.98
+# Object "1":
+
+newmtl material01
+Ka 0.878 0.878 0.878
+Kd 0.878 0.878 0.878
+Ks 1 1 1
+Ns 752.6
+map_Kd GandalphDone.bmp
+
+newmtl material04
+Ka 0.878 0.878 0.878
+Kd 0.878 0.878 0.878
+Ks 1 1 1
+Ns 752.6
+map_Kd base5.bmp
+

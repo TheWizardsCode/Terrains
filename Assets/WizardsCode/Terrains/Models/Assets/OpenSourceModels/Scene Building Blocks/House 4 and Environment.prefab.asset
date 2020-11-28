@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c85d2be99c71f4db390b3b00a3e875, type: 3}
+  m_Name: House 4 and Environment.prefab
+  m_EditorClassIdentifier: 
+  asset: {fileID: 2451065824665034309, guid: 9f15aa1b4072d0c4b842885236b23cdc, type: 3}
+  category: {fileID: 11400000, guid: c1f0d53b89a7e5e489850e46f436d29c, type: 2}
+  timePeriod: {fileID: 0}

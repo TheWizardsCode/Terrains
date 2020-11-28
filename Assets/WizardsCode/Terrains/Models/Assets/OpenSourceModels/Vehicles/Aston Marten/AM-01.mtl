@@ -1,0 +1,20 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 04.03.2018 22:06:33
+
+newmtl AM_01
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka E:\archive3d.net\AstonMartin\end1\AM-01_diffuse.jpg
+	map_Kd E:\archive3d.net\AstonMartin\end1\AM-01_diffuse.jpg
+	map_Ks E:\archive3d.net\AstonMartin\end1\AM-01_specular.jpg
+	map_d E:\archive3d.net\AstonMartin\end1\AM-01_Opacity.jpg
+	map_bump E:\archive3d.net\AstonMartin\end1\AM-01_Normal.jpg
+	bump E:\archive3d.net\AstonMartin\end1\AM-01_Normal.jpg

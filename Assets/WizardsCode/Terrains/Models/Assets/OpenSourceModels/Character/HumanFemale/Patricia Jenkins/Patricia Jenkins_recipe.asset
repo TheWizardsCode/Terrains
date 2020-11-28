@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9448878e2e40f1a4c9f8fd2b56832b13, type: 3}
+  m_Name: Patricia Jenkins_recipe
+  m_EditorClassIdentifier: 
+  recipeType: Standard
+  DisplayValue: 
+  compatibleRaces: []
+  wardrobeRecipeThumbs: []
+  wardrobeSlot: None
+  Hides: []
+  suppressWardrobeSlots: []
+  activeWardrobeSet: []
+  MeshHideAssets: []
+  recipeString: '{"version":3,"packedSlotDataList":[],"slotsV2":[],"slotsV3":[{"id":"FemaleEyes","scale":100,"copyIdx":-1,"overlays":[{"id":"Eye
+    Overlay","colorIdx":5,"rect":[0,0,0,0]},{"id":"Default Eye Adjust","colorIdx":2,"rect":[0,0,0,0]}]},{"id":"FemaleEyelashfix","scale":100,"copyIdx":-1,"overlays":[{"id":"FemaleEyelash","colorIdx":6,"rect":[0,0,0,0]}]},{"id":"FemaleInnerMouth","scale":100,"copyIdx":-1,"overlays":[{"id":"InnerMouth","colorIdx":7,"rect":[0,0,0,0]}]},{"id":"FemaleHands","scale":100,"copyIdx":-1,"overlays":[{"id":"F_H_Bod","colorIdx":0,"rect":[0,0,0,0]},{"id":"FemaleShirt01","colorIdx":3,"rect":[0,1024,2048,1024]},{"id":"FemaleJeans01","colorIdx":4,"rect":[0,0,0,0]}]},{"id":"FemaleLegs","scale":100,"copyIdx":3,"overlays":[]},{"id":"FemaleTorso","scale":100,"copyIdx":3,"overlays":[]},{"id":"F_High
+    poly head","scale":100,"copyIdx":-1,"overlays":[{"id":"F_H_Head","colorIdx":0,"rect":[0,0,0,0]}]},{"id":"F_High
+    poly Eyebrows","scale":100,"copyIdx":-1,"overlays":[{"id":"F_HighPoly_EyeBrow","colorIdx":1,"rect":[0,0,0,0]}]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"FemaleLongHair01","scale":100,"copyIdx":-1,"overlays":[{"id":"FemaleLongHair01","colorIdx":1,"rect":[0,0,0,0]}]},{"id":"FemaleLongHair01_Module","scale":100,"copyIdx":-1,"overlays":[{"id":"FemaleLongHair01_Module","colorIdx":1,"rect":[0,0,0,0]}]},{"id":"FemaleTallShoes","scale":100,"copyIdx":-1,"overlays":[{"id":"TallShoes_Turquoise","colorIdx":8,"rect":[0,0,0,0]}]}],"colors":[],"fColors":[{"name":"Skin","colors":[189,173,161,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"Hair","colors":[83,39,0,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"Eyes","colors":[236,211,109,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,34,31,31,154]},{"name":"Shirt","colors":[55,76,151,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"Pants1","colors":[55,106,185,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"-","colors":[234,234,234,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"-","colors":[37,37,37,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"-","colors":[234,234,234,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"-","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]}],"sharedColorCount":5,"race":"HumanFemale","packedDna":[{"dnaType":"DynamicUMADna","dnaTypeHash":1932961400,"packedDna":"{\"bDnaAsset\":{\"instanceID\":53246},\"bDnaAssetName\":\"HumanFemaleDNA
+    1\",\"bDnaSettings\":[{\"name\":\"height\",\"value\":125},{\"name\":\"headSize\",\"value\":128},{\"name\":\"headWidth\",\"value\":132},{\"name\":\"neckThickness\",\"value\":128},{\"name\":\"armLength\",\"value\":128},{\"name\":\"forearmLength\",\"value\":128},{\"name\":\"armWidth\",\"value\":128},{\"name\":\"forearmWidth\",\"value\":128},{\"name\":\"handsSize\",\"value\":128},{\"name\":\"feetSize\",\"value\":128},{\"name\":\"legSeparation\",\"value\":128},{\"name\":\"upperMuscle\",\"value\":128},{\"name\":\"lowerMuscle\",\"value\":128},{\"name\":\"upperWeight\",\"value\":165},{\"name\":\"lowerWeight\",\"value\":126},{\"name\":\"legsSize\",\"value\":134},{\"name\":\"belly\",\"value\":134},{\"name\":\"waist\",\"value\":128},{\"name\":\"gluteusSize\",\"value\":128},{\"name\":\"earsSize\",\"value\":128},{\"name\":\"earsPosition\",\"value\":128},{\"name\":\"earsRotation\",\"value\":128},{\"name\":\"noseSize\",\"value\":87},{\"name\":\"noseCurve\",\"value\":225},{\"name\":\"noseWidth\",\"value\":128},{\"name\":\"noseInclination\",\"value\":178},{\"name\":\"nosePosition\",\"value\":129},{\"name\":\"nosePronounced\",\"value\":175},{\"name\":\"noseFlatten\",\"value\":84},{\"name\":\"chinSize\",\"value\":207},{\"name\":\"chinPronounced\",\"value\":115},{\"name\":\"chinPosition\",\"value\":228},{\"name\":\"mandibleSize\",\"value\":55},{\"name\":\"jawsSize\",\"value\":128},{\"name\":\"jawsPosition\",\"value\":128},{\"name\":\"cheekSize\",\"value\":115},{\"name\":\"cheekPosition\",\"value\":128},{\"name\":\"lowCheekPronounced\",\"value\":167},{\"name\":\"lowCheekPosition\",\"value\":128},{\"name\":\"foreheadSize\",\"value\":128},{\"name\":\"foreheadPosition\",\"value\":128},{\"name\":\"lipsSize\",\"value\":112},{\"name\":\"mouthSize\",\"value\":131},{\"name\":\"eyeRotation\",\"value\":41},{\"name\":\"eyeSize\",\"value\":182},{\"name\":\"breastSize\",\"value\":108},{\"name\":\"breastCleavage\",\"value\":128},{\"name\":\"eyeSpacing\",\"value\":167}]}"}],"wardrobeSet":[],"packedRecipeType":"Standard"}'

@@ -1,0 +1,22 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl Material.000
+Ns 86.274510
+Ka 0.000000 0.000000 0.000000
+Kd 0.263168 0.263168 0.263168
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd H:\Gandalph\Done\g5overlay.png
+
+newmtl Material.000_test4.bmp
+Ns 86.274510
+Ka 0.000000 0.000000 0.000000
+Kd 0.263168 0.263168 0.263168
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd H:\Gandalph\Done\test4.bmp

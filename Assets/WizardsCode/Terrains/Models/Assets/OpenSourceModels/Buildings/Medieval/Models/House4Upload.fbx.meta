@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: 2ff00a1a2bfcfc04992081f06a57ad82
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Chimney
+    100002: ChimneyPipes
+    100004: DoorBack
+    100006: DoorBackFrame
+    100008: DoorBackHandle
+    100010: DoorBackSteps
+    100012: DoorFront
+    100014: DoorFrontFrame
+    100016: DoorFrontHandle
+    100018: DoorSide
+    100020: DoorSideFrame
+    100022: DoorSideHandle
+    100024: DoorSideSteps
+    100026: //RootNode
+    100028: Level1
+    100030: Level2
+    100032: Level3
+    100034: Roof
+    100036: RoofFrame
+    100038: Steps
+    100040: Window1Level1
+    100042: Window1Level2
+    100044: Window1Level3
+    100046: Window2Level1
+    100048: Window2Level2
+    100050: Window2Level3
+    100052: Window3Level1
+    100054: Window3Level2
+    100056: Window3Level3
+    100058: Window4Level1
+    100060: Window4Level2
+    100062: Window5Level1
+    100064: Window5Level2
+    100066: Window6Level1
+    100068: Window6Level2
+    100070: WindowFrames
+    100072: WindowsHandles
+    100074: WoodenBeams
+    400000: Chimney
+    400002: ChimneyPipes
+    400004: DoorBack
+    400006: DoorBackFrame
+    400008: DoorBackHandle
+    400010: DoorBackSteps
+    400012: DoorFront
+    400014: DoorFrontFrame
+    400016: DoorFrontHandle
+    400018: DoorSide
+    400020: DoorSideFrame
+    400022: DoorSideHandle
+    400024: DoorSideSteps
+    400026: //RootNode
+    400028: Level1
+    400030: Level2
+    400032: Level3
+    400034: Roof
+    400036: RoofFrame
+    400038: Steps
+    400040: Window1Level1
+    400042: Window1Level2
+    400044: Window1Level3
+    400046: Window2Level1
+    400048: Window2Level2
+    400050: Window2Level3
+    400052: Window3Level1
+    400054: Window3Level2
+    400056: Window3Level3
+    400058: Window4Level1
+    400060: Window4Level2
+    400062: Window5Level1
+    400064: Window5Level2
+    400066: Window6Level1
+    400068: Window6Level2
+    400070: WindowFrames
+    400072: WindowsHandles
+    400074: WoodenBeams
+    2100000: WindowBlue1
+    2100002: WindowBlue2
+    2100004: RoofTiles
+    2100006: Wood
+    2100008: LogEdgeWeathered
+    2100010: DoorType1_2
+    2100012: RustedMetal
+    2100014: Stone
+    2100016: Wood.001
+    2100018: Plaster
+    2100020: GreyStone2
+    2100022: GreyBrick2
+    2100024: Brick
+    2300000: Chimney
+    2300002: ChimneyPipes
+    2300004: DoorBack
+    2300006: DoorBackFrame
+    2300008: DoorBackHandle
+    2300010: DoorBackSteps
+    2300012: DoorFront
+    2300014: DoorFrontFrame
+    2300016: DoorFrontHandle
+    2300018: DoorSide
+    2300020: DoorSideFrame
+    2300022: DoorSideHandle
+    2300024: DoorSideSteps
+    2300026: Level1
+    2300028: Level2
+    2300030: Level3
+    2300032: Roof
+    2300034: RoofFrame
+    2300036: Steps
+    2300038: Window1Level1
+    2300040: Window1Level2
+    2300042: Window1Level3
+    2300044: Window2Level1
+    2300046: Window2Level2
+    2300048: Window2Level3
+    2300050: Window3Level1
+    2300052: Window3Level2
+    2300054: Window3Level3
+    2300056: Window4Level1
+    2300058: Window4Level2
+    2300060: Window5Level1
+    2300062: Window5Level2
+    2300064: Window6Level1
+    2300066: Window6Level2
+    2300068: WindowFrames
+    2300070: WindowsHandles
+    2300072: WoodenBeams
+    3300000: Chimney
+    3300002: ChimneyPipes
+    3300004: DoorBack
+    3300006: DoorBackFrame
+    3300008: DoorBackHandle
+    3300010: DoorBackSteps
+    3300012: DoorFront
+    3300014: DoorFrontFrame
+    3300016: DoorFrontHandle
+    3300018: DoorSide
+    3300020: DoorSideFrame
+    3300022: DoorSideHandle
+    3300024: DoorSideSteps
+    3300026: Level1
+    3300028: Level2
+    3300030: Level3
+    3300032: Roof
+    3300034: RoofFrame
+    3300036: Steps
+    3300038: Window1Level1
+    3300040: Window1Level2
+    3300042: Window1Level3
+    3300044: Window2Level1
+    3300046: Window2Level2
+    3300048: Window2Level3
+    3300050: Window3Level1
+    3300052: Window3Level2
+    3300054: Window3Level3
+    3300056: Window4Level1
+    3300058: Window4Level2
+    3300060: Window5Level1
+    3300062: Window5Level2
+    3300064: Window6Level1
+    3300066: Window6Level2
+    3300068: WindowFrames
+    3300070: WindowsHandles
+    3300072: WoodenBeams
+    4300000: Window1Level2
+    4300002: Window3Level3
+    4300004: Roof
+    4300006: WoodenBeams
+    4300008: RoofFrame
+    4300010: Window6Level1
+    4300012: Window4Level1
+    4300014: Window3Level1
+    4300016: DoorBack
+    4300018: DoorBackFrame
+    4300020: DoorBackHandle
+    4300022: DoorBackSteps
+    4300024: Window5Level1
+    4300026: WindowsHandles
+    4300028: WindowFrames
+    4300030: Level3
+    4300032: Window2Level3
+    4300034: Window2Level1
+    4300036: Window3Level2
+    4300038: Window2Level2
+    4300040: Window4Level2
+    4300042: Window5Level2
+    4300044: Window6Level2
+    4300046: Window1Level1
+    4300048: DoorFrontHandle
+    4300050: DoorSideSteps
+    4300052: DoorSideHandle
+    4300054: DoorSideFrame
+    4300056: DoorSide
+    4300058: Steps
+    4300060: DoorFrontFrame
+    4300062: DoorFront
+    4300064: Level2
+    4300066: Level1
+    4300068: Chimney
+    4300070: ChimneyPipes
+    4300072: Window1Level3
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brick
+    second: {fileID: 2100000, guid: f1e44aa96cbeca84c95f6e32f0aa6007, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorType1_2
+    second: {fileID: 2100000, guid: 672f58b6e18b729478851aa987040dfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GreyBrick2
+    second: {fileID: 2100000, guid: 5edd17669920d8e429317ed2c446fbb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GreyStone2
+    second: {fileID: 2100000, guid: 92afa316df5d4d4449223d9b5ebe3851, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LogEdgeWeathered
+    second: {fileID: 2100000, guid: bcaff4ee6c8bba24fb01f97cdaf6d492, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plaster
+    second: {fileID: 2100000, guid: 855b9b0b39ed48744ac9feac8640669d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofTiles
+    second: {fileID: 2100000, guid: c95a0f5505d8b274b806e559d0676f28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RustedMetal
+    second: {fileID: 2100000, guid: a0033273f8a9dee4ea89a6cb8acc7806, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone
+    second: {fileID: 2100000, guid: 790d7b6a803a2214b84214eab5ea073d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindowBlue1
+    second: {fileID: 2100000, guid: f8aaf02e5a084014e9526d15b27e81d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindowBlue2
+    second: {fileID: 2100000, guid: 787c3ad137b84284985736e64cbdc517, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 33b8cd24a2c6cb44999473725aaee195, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood.001
+    second: {fileID: 2100000, guid: 33b8cd24a2c6cb44999473725aaee195, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

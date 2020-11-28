@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 134e62b5e3f926e47b3cb9589459bdfe, type: 3}
+  m_Name: WatchTower.prefab
+  m_EditorClassIdentifier: 
+  asset: {fileID: 55386403788949067, guid: 34b24e4c4ad583a4393991b3936c0cb1, type: 3}
+  category: {fileID: 11400000, guid: c66aa05ffb873a94d805c81aea9e5e7f, type: 2}
+  timePeriod: {fileID: 11400000, guid: 90c8cc6d85c9b304d87b6ca3ef0471fb, type: 2}

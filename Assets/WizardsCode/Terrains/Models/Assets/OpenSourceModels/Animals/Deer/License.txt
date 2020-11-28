@@ -1,0 +1,5 @@
+Model: Deer Female
+Author: Čestmír Dammer
+Project: www.kelgar.org
+Version: jun 2013
+License: CC0 Public Domain
