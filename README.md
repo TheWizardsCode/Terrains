@@ -36,6 +36,13 @@ This tool will export your heightmap, optionally with the splatmap, details and 
 
 To use: Tools -> Wizard Code -> Terrain Exporter (Instructions are in the exporter window)
 
+# Resources
+
+We gather resources from a number of places. Here's a list of the ones we use.
+
+* [Texture Haven](https://texturehaven.com/) - CC0 Textures - support Texture Haven on [Patreon](https://www.patreon.com/TextureHaven/overview)
+* [Open Game Art](https://opengameart.org/) - Models, Sprites, Textures and more) under various open licenses
+
 # Unity Asset Store Affiliate Links
 
 We try to make as much of this content usable without spending money on assets. However, assets will make things easier and often better. All links in this project to assets are affiliate links. By using these links when you buy assets (any assets, not just the ones linked) will give me a small commission. Please consider using them so I can continue to provide this stuff.
