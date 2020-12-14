@@ -16,9 +16,13 @@ In the `WizardsCode/Terrains/Models` folder you will find some open source and p
 
 Included in this repo are some Biome configurations for [Gaia Pro](http://bit.ly/GaiaProAsset) and [Gaia](https://bit.ly/Gaia2Unity). You can find the biomes in the `Assets/WizardsCode/Terrains/Data/Gaia` folder. Obviously you will need to buy Gaia and any asset packs they use to make use of them. See the README.md in each folder for links to required packs.
 
+For example, there is a Biome for the excellent [Tropical Forest Pack](https://bit.ly/UnityTFP) that you can see in action in our [Speed Build - Tropical Terrain using Gaia, Tropical Forrest Pack and Enviro](https://youtu.be/zciz3ZLNjJk) video. There are deeper dive videos on that channel too.
+
 # Enviro: Sky and Weather
 
 The `Assets/WizardsCode/Terrains/Data/Enviro` folder includes some profiles for Enviro. These make for a great starting point for your own work with [Enviro: Sky and Weather](https://bit.ly/UnityEnviro).
+
+If you are building a Tropical Forest then you can checkout our tropical Enviro profile in our [Speed Build - Tropical Terrain using Gaia, Tropical Forrest Pack and Enviro](https://youtu.be/zciz3ZLNjJk) video.
 
 # Vegetation Studio Pro
 
