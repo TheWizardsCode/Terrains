@@ -1,19 +1,28 @@
-Unity Heightmaps, Terrains and Gaia Biomes.
+Unity Heightmaps, Terrains, Textures, models and configuration files for environment tools in the Unity Asset Store.
 
-# Submodules
-
-This repository uses a set of submodules, be sure to check out with:
-
-```
-git clone --recurse-submodules [repo URI]
-```
 # Terrains
 
-In the [Assets/Scenes](https://github.com/3dtbd/Terrains/tree/master/Assets/Scenes) you will find a number of terrains for your use. For the most part you will want to use these as heightmaps and apply your own texturing and vegetation. However, many of the terrains also come with versions that use a set of open source textures and models to demostrate what they might look like when planted. These assets are included as submobules so be sure to check them out (see above).
+In the `WizardsCode/Terrains/Scenes` folder you will find a number of terrains for your use. For the most part you will want to use these as heightmaps and apply your own texturing and vegetation. However, many of the terrains also come with versions that use a set of open source textures and models to demostrate what they might look like when planted.
+
+# Textures
+
+In the `WizardsCode/Terrains/Textures` folder you will find some open source and public domain textures for use on terrains.
+
+# Models
+
+In the `WizardsCode/Terrains/Models` folder you will find some open source and public domain models that can be used to spice up your terrain. You'll find some trees, grasses and even some buildings and furniture.
 
 # Gaia Biomes
 
-Included in this repo are some Biomes configurations for [Gaia Pro](https://assetstore.unity.com/packages/tools/terrain/gaia-pro-terrain-scene-generator-155852?aid=1101l866w) and [Gaia](https://assetstore.unity.com/packages/tools/terrain/gaia-2-terrain-scene-generator-42618?aid=1101l866w). You can find the biomes in the [Assets/Gaia](https://github.com/3dtbd/Terrains/tree/master/Assets/Gaia) folder. Obviously you will need to buy Gaia and any asset packs they use to make use of them. See the README.md in each folder for links to required packs.
+Included in this repo are some Biome configurations for [Gaia Pro](http://bit.ly/GaiaProAsset) and [Gaia](https://bit.ly/Gaia2Unity). You can find the biomes in the `Assets/WizardsCode/Terrains/Data/Gaia` folder. Obviously you will need to buy Gaia and any asset packs they use to make use of them. See the README.md in each folder for links to required packs.
+
+# Enviro: Sky and Weather
+
+The `Assets/WizardsCode/Terrains/Data/Enviro` folder includes some profiles for Enviro. These make for a great starting point for your own work with [Enviro: Sky and Weather](https://bit.ly/UnityEnviro).
+
+# Vegetation Studio Pro
+
+The `Assets/WizardsCode/Terrains/Data/VSPro Biomes` folder has some profiles for Vegetation Studio Pro that you can use to texture and plant your scenes. Check the README in each folder to see if there are any required asset packs for the models and textures.
 
 # Tools
 
@@ -22,3 +31,7 @@ Included in this repo are some Biomes configurations for [Gaia Pro](https://asse
 This tool will export your heightmap, optionally with the splatmap, details and trees as a package for each transfer to another project.
 
 To use: Tools -> Wizard Code -> Terrain Exporter (Instructions are in the exporter window)
+
+# Unity Asset Store Affiliate Links
+
+We try to make as much of this content usable without spending money on assets. However, assets will make things easier and often better. All links in this project to assets are affiliate links. By using these links when you buy assets (any assets, not just the ones linked) will give me a small commission. Please consider using them so I can continue to provide this stuff.
