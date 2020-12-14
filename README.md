@@ -38,11 +38,20 @@ To use: Tools -> Wizard Code -> Terrain Exporter (Instructions are in the export
 
 # Resources
 
-We gather resources from a number of places. Here's a list of the ones we use (in alphabetic order).
+We gather resources from a number of places. None of the assets on this site require attribution or restrict the creation of derivatives, however we do our best to ensure attribution. If you believe any asset included here is not under a sufficiently open license please let us know so we can validate and, if necessary, remove the asset.
 
+Here's a list of the sites and artists we use (in alphabetic order).
+
+* [3D Model Haven](https://3dmodelhaven.com/) - CC0 Models - support 3D Model Haven on [Patreon](https://www.patreon.com/3dmodelhaven/overview)
+* [3D Textures.me](https://3dtextures.me/) - CC0 Textures - support 3D Textures.me on [Patreon](https://www.patreon.com/gendo)
+* [CC0 Textures](https://cc0textures.com/) - CC0 Textures - support CC0 Textures on [Patreon](https://www.patreon.com/cc0textures)
 * [CG Bookcase](https://www.cgbookcase.com/) - CC0 Textures - support CG Bookcase on [Patreon](https://www.patreon.com/cgbookcase/posts)
-* [Open Game Art](https://opengameart.org/) - Models, Sprites, Textures and more) under various open licenses
+* [HDRI Haven](https://hdrihaven.com/) - CC0 HDRIs - support HDRI Haven on [Patreon](https://www.patreon.com/hdrihaven)
+* [Open Game Art](https://opengameart.org/) - Models, Sprites, Textures and more under various open licenses
+* [Share Textures](https://www.sharetextures.com/) - CC0 Textures - support Share Textures on [Patreon](https://www.patreon.com/sharetextures)
 * [Texture Haven](https://texturehaven.com/) - CC0 Textures - support Texture Haven on [Patreon](https://www.patreon.com/TextureHaven/overview)
+
+You can search all of these sites, and more, at once with the awesome [3D Assets One](https://3dassets.one/) search site.
 
 # Unity Asset Store Affiliate Links
 
