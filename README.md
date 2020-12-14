@@ -38,10 +38,11 @@ To use: Tools -> Wizard Code -> Terrain Exporter (Instructions are in the export
 
 # Resources
 
-We gather resources from a number of places. Here's a list of the ones we use.
+We gather resources from a number of places. Here's a list of the ones we use (in alphabetic order).
 
-* [Texture Haven](https://texturehaven.com/) - CC0 Textures - support Texture Haven on [Patreon](https://www.patreon.com/TextureHaven/overview)
+* [CG Bookcase](https://www.cgbookcase.com/) - CC0 Textures - support CG Bookcase on [Patreon](https://www.patreon.com/cgbookcase/posts)
 * [Open Game Art](https://opengameart.org/) - Models, Sprites, Textures and more) under various open licenses
+* [Texture Haven](https://texturehaven.com/) - CC0 Textures - support Texture Haven on [Patreon](https://www.patreon.com/TextureHaven/overview)
 
 # Unity Asset Store Affiliate Links
 
