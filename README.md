@@ -38,7 +38,7 @@ To use: Tools -> Wizard Code -> Terrain Exporter (Instructions are in the export
 
 # Resources
 
-We gather resources from a number of places. None of the assets on this site require attribution or restrict the creation of derivatives, however we do our best to ensure attribution. If you believe any asset included here is not under a sufficiently open license please let us know so we can validate and, if necessary, remove the asset.
+We gather resources from a number of places. Some of the assets on this site require attribution but none restrict the creation of derivatives. Even when attribution is not required we do our best to ensure license and attribution information is provided in the directory the asset is found, please be sure to adhere to the license when you reuse these assets. If you believe any asset included here is not under a sufficiently open license please let us know so we can validate and, if necessary, remove the asset.
 
 Here's a list of the sites and artists we use (in alphabetic order).
 
