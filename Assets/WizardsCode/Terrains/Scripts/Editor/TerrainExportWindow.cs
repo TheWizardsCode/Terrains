@@ -16,7 +16,7 @@ namespace WizardsCode.EditorUtils
     public class TerrainExportWindow : EditorWindow
     {
         // TODO: Handle the situation where the Terrains submodule is not in the usual place
-        static string m_TerrainDirectory = "Assets/Exported Terrains";
+        static string m_TerrainDirectory = "Assets/WizardsCode/TerrainPackages";
         static string m_TerrainSceneDirectory = m_TerrainDirectory + "/Scenes";
         static string m_TerrainDataDirectory = m_TerrainDirectory + "/Terrain Data";
         static string m_TerrainLayersDirectory = m_TerrainDirectory + "/Terrain Layers";

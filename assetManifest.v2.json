@@ -30,6 +30,18 @@
             "id": "155852",
             "versionId": "2.2.1",
             "versionNumber": 560468
+        },
+        {
+            "name": "GeNa 2 - Terrain & Scene Spawner",
+            "id": "127636",
+            "versionId": "2.5.1",
+            "versionNumber": 573803
+        },
+        {
+            "name": "Skybox Creator - Video Skybox Creation",
+            "id": "160778",
+            "versionId": "1.0.4",
+            "versionNumber": 519147
         }
     ]
 }
