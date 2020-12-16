@@ -24,7 +24,6 @@ namespace WizardsCode.EditorUtils
         bool exportWithTextures = false;
         bool exportWithDetails = false;
         bool exportWithTrees = false;
-        bool exportWithSkybox = false;
 
         [MenuItem("Tools/Wizards Code/Terrain Export")]
         public static void ShowWindow()
@@ -40,7 +39,8 @@ namespace WizardsCode.EditorUtils
                 + "A new scene containing the terrain and chosen items will be created in the designated folder."
                 //TODO automatically create a Unity Package for the terrain
                 + "\n\n4. Select the export scene in the project window, right click and click `Select Dependencies`."
-                + "\n\n5. Select `Assets/Export Package...`, remember to uncheck `Include Dependencies` if you don't want to include models etc. "
+                + "\n\n5. Select `Assets/Export Package...`, if you don't have the rights to redistribute the models and " +
+                "textures remember to uncheck `Include Dependencies`."
                 + "\n\n6. Click Export to save a unity package containing the exported scene.";
             EditorGUILayout.HelpBox(docs, MessageType.Info);
 
@@ -64,8 +64,11 @@ namespace WizardsCode.EditorUtils
             }
         }
 
+        static float numOfSteps = 8;
         private void ExportTerrain()
         {
+            EditorUtility.DisplayProgressBar("Exporting Terrain", "Preparing assets...", 0 / numOfSteps);
+
             AssetDatabase.Refresh();
 
             Directory.CreateDirectory(m_TerrainDirectory);
@@ -73,16 +76,36 @@ namespace WizardsCode.EditorUtils
             Directory.CreateDirectory(m_TerrainDataDirectory);
             Directory.CreateDirectory(m_TerrainLayersDirectory);
 
+            EditorUtility.DisplayProgressBar("Exporting Terrain", "Creating scene...", 1 / numOfSteps);
+
             string exportSceneName = GenerateSceneName();
+            string dstScenePath = m_TerrainSceneDirectory + "/" + exportSceneName + ".unity";
+            if (File.Exists(dstScenePath))
+            {
+                if (!EditorUtility.DisplayDialog("Scene Exists", "A scene with the name " + exportSceneName + " already exists. Do you want to overwrite the scene?", "Yes", "No"))
+                {
+                    EditorUtility.ClearProgressBar();
+                    return;
+                }
+            }
+
+
             Scene exportScene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Additive);
             exportScene.name = exportSceneName;
 
+            EditorUtility.DisplayProgressBar("Exporting Terrain", "Copying lights and camera...", 2 / numOfSteps);
             CopyCameras(exportScene);
             CopyDirectionalLights(exportScene);
+
             CopyTerrains(exportScene, exportWithTextures, exportWithDetails, exportWithTrees);
 
-            EditorSceneManager.SaveScene(exportScene, m_TerrainSceneDirectory + "/" + exportScene.name + ".unity");
+            EditorUtility.DisplayProgressBar("Exporting Terrain", "Saving Scene...", numOfSteps - 1 / numOfSteps);
+            EditorSceneManager.SaveScene(exportScene, dstScenePath);
+
+            EditorUtility.DisplayProgressBar("Exporting Terrain", "Wrapping Up...", numOfSteps / numOfSteps);
             EditorSceneManager.CloseScene(exportScene, true);
+
+            EditorUtility.ClearProgressBar();
         }
 
         private string GenerateSceneName()
@@ -97,13 +120,12 @@ namespace WizardsCode.EditorUtils
                 exportSceneName += " with";
                 exportSceneName += features;
             }
-            exportSceneName += " ";
-            exportSceneName += DateTime.Now.ToFileTimeUtc();
             return exportSceneName.Replace(' ', '_');
         }
 
         private static void CopyTerrains(Scene exportScene, bool exportWithTextures, bool exportWithDetails, bool exportWithTrees)
         {
+            EditorUtility.DisplayProgressBar("Exporting Terrain", "Copying Terrain(s)...", 3 / numOfSteps);
             Terrain[] terrains = Terrain.activeTerrains;
             for (int i = 0; i < terrains.Length; i++)
             {
@@ -120,6 +142,7 @@ namespace WizardsCode.EditorUtils
                 // Copy or Strip Textures
                 if (exportWithTextures)
                 {
+                    EditorUtility.DisplayProgressBar("Exporting Terrain", "Copying Textures...", 4 / numOfSteps);
                     TerrainLayer[] newLayers = new TerrainLayer[newData.terrainLayers.Length];
 
                     for (int l = 0; l < newData.terrainLayers.Length; l++)
@@ -135,12 +158,14 @@ namespace WizardsCode.EditorUtils
                 }
                 else
                 {
+                    EditorUtility.DisplayProgressBar("Exporting Terrain", "Stripping Textures...", 4 / numOfSteps);
                     newData.terrainLayers = null;
                 }
 
                 // Strip Details?
                 if (!exportWithDetails)
                 {
+                    EditorUtility.DisplayProgressBar("Exporting Terrain", "Copying Details...", 5 / numOfSteps);
                     for (int l = 0; l < newData.detailPrototypes.Length; l++)
                     {
                         int[,] map = newData.GetDetailLayer(0, 0, newData.detailWidth, newData.detailHeight, l);
@@ -155,15 +180,23 @@ namespace WizardsCode.EditorUtils
                     }
 
                     newData.detailPrototypes = new DetailPrototype[0];
+                } else
+                {
+                    EditorUtility.DisplayProgressBar("Exporting Terrain", "Stripping Details...", 5 / numOfSteps);
                 }
 
                 // Strip Trees?
                 if (!exportWithTrees)
                 {
+                    EditorUtility.DisplayProgressBar("Exporting Terrain", "Copying Trees...", 6 / numOfSteps);
                     newData.treeInstances = new TreeInstance[0];
                     newData.treePrototypes = new TreePrototype[0];
+                } else
+                {
+                    EditorUtility.DisplayProgressBar("Exporting Terrain", "Stripping Trees...", 6 / numOfSteps);
                 }
 
+                EditorUtility.DisplayProgressBar("Exporting Terrain", "Setting terrain data...", 7 / numOfSteps);
                 newTerrain.terrainData = newData;
                 newTerrain.GetComponent<TerrainCollider>().terrainData = newData;
             }
