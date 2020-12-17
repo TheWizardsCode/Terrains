@@ -15,15 +15,16 @@ namespace WizardsCode.EditorUtils
     /// </summary>
     public class TerrainExportWindow : EditorWindow
     {
-        // TODO: Handle the situation where the Terrains submodule is not in the usual place
-        static string m_TerrainDirectory = "Assets/WizardsCode/TerrainPackages";
-        static string m_TerrainSceneDirectory = m_TerrainDirectory + "/Scenes";
-        static string m_TerrainDataDirectory = m_TerrainDirectory + "/Terrain Data";
-        static string m_TerrainLayersDirectory = m_TerrainDirectory + "/Terrain Layers";
+        static string m_TerrainPackagesDirectory = "Assets/WizardsCode/Terrains/Terrain Packages";
+        static string m_TerrainSceneDirectory = "Assets/WizardsCode/Terrains/Scenes";
+        static string m_TerrainDataDirectory = "Assets/WizardsCode/Terrains/Terrain Data";
+        static string m_TerrainLayersDirectory = "Assets/WizardsCode/Terrains/Terrain Layers";
 
         bool exportWithTextures = false;
         bool exportWithDetails = false;
         bool exportWithTrees = false;
+
+        static List<string> assetsToPackage;
 
         [MenuItem("Tools/Wizards Code/Terrain Export")]
         public static void ShowWindow()
@@ -64,14 +65,16 @@ namespace WizardsCode.EditorUtils
             }
         }
 
-        static float numOfSteps = 8;
+        static float numOfSteps = 10;
         private void ExportTerrain()
         {
+            assetsToPackage = new List<string>();
+
             EditorUtility.DisplayProgressBar("Exporting Terrain", "Preparing assets...", 0 / numOfSteps);
 
             AssetDatabase.Refresh();
 
-            Directory.CreateDirectory(m_TerrainDirectory);
+            Directory.CreateDirectory(m_TerrainPackagesDirectory);
             Directory.CreateDirectory(m_TerrainSceneDirectory);
             Directory.CreateDirectory(m_TerrainDataDirectory);
             Directory.CreateDirectory(m_TerrainLayersDirectory);
@@ -79,8 +82,8 @@ namespace WizardsCode.EditorUtils
             EditorUtility.DisplayProgressBar("Exporting Terrain", "Creating scene...", 1 / numOfSteps);
 
             string exportSceneName = GenerateSceneName();
-            string dstScenePath = m_TerrainSceneDirectory + "/" + exportSceneName + ".unity";
-            if (File.Exists(dstScenePath))
+            string scenePath = m_TerrainSceneDirectory + "/" + exportSceneName;
+            if (File.Exists(scenePath + "( clone).unity"))
             {
                 if (!EditorUtility.DisplayDialog("Scene Exists", "A scene with the name " + exportSceneName + " already exists. Do you want to overwrite the scene?", "Yes", "No"))
                 {
@@ -88,7 +91,6 @@ namespace WizardsCode.EditorUtils
                     return;
                 }
             }
-
 
             Scene exportScene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Additive);
             exportScene.name = exportSceneName;
@@ -99,11 +101,23 @@ namespace WizardsCode.EditorUtils
 
             CopyTerrains(exportScene, exportWithTextures, exportWithDetails, exportWithTrees);
 
-            EditorUtility.DisplayProgressBar("Exporting Terrain", "Saving Scene...", numOfSteps - 1 / numOfSteps);
-            EditorSceneManager.SaveScene(exportScene, dstScenePath);
+            EditorUtility.DisplayProgressBar("Exporting Terrain", "Saving Scene...", numOfSteps - 3 / numOfSteps);
+            EditorSceneManager.SaveScene(exportScene, scenePath + " (clone).unity");
 
-            EditorUtility.DisplayProgressBar("Exporting Terrain", "Wrapping Up...", numOfSteps / numOfSteps);
+            EditorUtility.DisplayProgressBar("Exporting Terrain", "Saving unitypackage...", numOfSteps - 2 / numOfSteps);
+            assetsToPackage.Add(exportScene.path);
+            AssetDatabase.ExportPackage(assetsToPackage.ToArray(), Application.dataPath + "/" + m_TerrainPackagesDirectory.Substring(6) + "/" + exportSceneName + ".unitypackage");
+
+            EditorUtility.DisplayProgressBar("Exporting Terrain", "Deleting temporary files...", numOfSteps-1 / numOfSteps);
+            foreach (string path in assetsToPackage)
+            {
+                AssetDatabase.DeleteAsset(path);
+            }
+
+            EditorUtility.DisplayProgressBar("Exporting Terrain", "Finalizing...", numOfSteps / numOfSteps);
             EditorSceneManager.CloseScene(exportScene, true);
+            Application.OpenURL("file:///" + Application.dataPath + m_TerrainPackagesDirectory.Substring(6));
+            AssetDatabase.Refresh();
 
             EditorUtility.ClearProgressBar();
         }
@@ -135,9 +149,10 @@ namespace WizardsCode.EditorUtils
                 // Copy the Terrain Data
                 TerrainData data = terrains[i].terrainData;
                 string originalDataPath = AssetDatabase.GetAssetPath(data);
-                string exportDataPath = m_TerrainDataDirectory + "/" + exportScene.name + "_" + i + ".asset";
+                string exportDataPath = m_TerrainDataDirectory + "/" + exportScene.name + "_" + i + "(clone).asset";
                 AssetDatabase.CopyAsset(originalDataPath, exportDataPath);
                 TerrainData newData = AssetDatabase.LoadAssetAtPath<TerrainData>(exportDataPath);
+                assetsToPackage.Add(exportDataPath);
 
                 // Copy or Strip Textures
                 if (exportWithTextures)
@@ -149,9 +164,10 @@ namespace WizardsCode.EditorUtils
                     {
                         TerrainLayer originalLayer = newData.terrainLayers[l];
                         string originalLayerPath = AssetDatabase.GetAssetPath(originalLayer);
-                        string exportLayerPath = m_TerrainLayersDirectory + "/" + exportScene.name + "_layer_" + l + ".asset";
+                        string exportLayerPath = m_TerrainLayersDirectory + "/" + exportScene.name + "_layer_" + l + "(clone).asset";
                         AssetDatabase.CopyAsset(originalLayerPath, exportLayerPath);
                         newLayers[l] = AssetDatabase.LoadAssetAtPath<TerrainLayer>(exportLayerPath);
+                        assetsToPackage.Add(exportLayerPath);
                     }
 
                     newData.terrainLayers = newLayers;
@@ -235,6 +251,7 @@ namespace WizardsCode.EditorUtils
             newGo.transform.parent = null;
             SceneManager.MoveGameObjectToScene(newGo, toScene);
             newGo.name = newGo.name.Substring(0, newGo.name.Length - "(Clone)".Length);
+
             return newGo;
         }
     }

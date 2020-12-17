@@ -13,23 +13,26 @@ MonoBehaviour:
   m_Name: PackageManifestConfig
   m_EditorClassIdentifier: 
   packageSourcePaths:
-  - Assets
-  - README.md
-  packageIgnorePaths:
-  - Assets/PackageManifestConfig.asset
-  - Assets/Generated
-  packageDestinationPath: ../Terrains-ReleaseCandidate
+  - Assets/WizardsCode
+  packageIgnorePaths: []
+  packageDestinationPath: releaseCondidates
   legacyPackageDestinationPath: 
   packageName: org.wizardscode.terrains
   displayName: Wizards Code - Terrains
-  packageVersion: 0.1.0
+  packageVersion: 0.0.2
   unityVersion: 2019.4
-  description: Free and Open Source Terrains for your pleasure.
+  description: Terrains and open source textures, models and configuration files
+    for terrain workflows.
   category: Environment
+  author:
+    name: 
+    email: 
+    url: 
   keywords:
-  - Terrains
-  - Open Source
+  - Terrain
+  - Texture
+  - Model
   dependencies: []
-  versionConstantsPath: 
-  versionConstantsNamespace: 
-  _id: f2da28fe-14ed-4896-a48f-26027e9dd1d9
+  versionConstantsPath: Assets/WizardsCode/Terrains/Scripts
+  versionConstantsNamespace: wizardscode.terrains
+  _id: d2bc1dbb-75d6-4e0e-9920-72486540e0bb

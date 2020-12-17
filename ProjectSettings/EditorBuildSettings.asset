@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/WizardsCode/Terrains/Scenes/Mini RTS.unity
+    guid: 4e4c4533de1fcf14e88b76749d3aa780
+  - enabled: 1
+    path: Assets/WizardsCode/Terrains/Scenes/On The Range.unity
+    guid: 4bc1ce7b0589ab24aa6933b6d3966e2e
+  - enabled: 1
+    path: 
+    guid: 3546cffcad61eef47bd11162d00970a2
   m_configObjects: {}
