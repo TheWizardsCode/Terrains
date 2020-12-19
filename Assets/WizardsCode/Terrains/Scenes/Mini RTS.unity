@@ -17157,10 +17157,10 @@ MonoBehaviour:
       m_maskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
       m_specularColor: {r: 0, g: 0, b: 0, a: 0}
       m_channelRemapFoldedOut: 0
-    - m_name: rock_01_diffuse
-      m_texture: {fileID: 2800000, guid: 5432a92ce0b53234195e774c9a8dc7c1, type: 3}
+    - m_name: Cliff Face Diffuse
+      m_texture: {fileID: 2800000, guid: 5f11edf1d10dc054da559d0891b59e14, type: 3}
       m_textureFileName: 
-      m_normal: {fileID: 2800000, guid: 33383f5291f2a6d449f9b1add66b1f86, type: 3}
+      m_normal: {fileID: 2800000, guid: 9ff06ec2152e7df42b67825d30a73c1a, type: 3}
       m_maskmap: {fileID: 0}
       m_CTSSmoothnessMap: {fileID: 0}
       m_CTSRoughnessMap: {fileID: 0}
@@ -17409,7 +17409,7 @@ MonoBehaviour:
     m_noiseStrength: 1
     m_noiseInvert: 0
     m_isActive: 1
-    m_isFoldedOut: 1
+    m_isFoldedOut: 0
     m_currInstanceCnt: 0
     m_activeInstanceCnt: 0
     m_inactiveInstanceCnt: 0
@@ -17813,7 +17813,7 @@ MonoBehaviour:
     m_noiseStrength: 1
     m_noiseInvert: 0
     m_isActive: 1
-    m_isFoldedOut: 1
+    m_isFoldedOut: 0
     m_currInstanceCnt: 0
     m_activeInstanceCnt: 0
     m_inactiveInstanceCnt: 0
@@ -18441,7 +18441,7 @@ MonoBehaviour:
     m_noiseStrength: 1
     m_noiseInvert: 0
     m_isActive: 1
-    m_isFoldedOut: 0
+    m_isFoldedOut: 1
     m_currInstanceCnt: 0
     m_activeInstanceCnt: 0
     m_inactiveInstanceCnt: 0
@@ -23685,12 +23685,12 @@ PrefabInstance:
     - target: {fileID: 2583254743543292303, guid: 623cda9eabbc4544d93a7171d8720bd8,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.73697805
+      value: 0.6839716
       objectReference: {fileID: 0}
     - target: {fileID: 2583254743543292303, guid: 623cda9eabbc4544d93a7171d8720bd8,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.67591673
+      value: -0.7295087
       objectReference: {fileID: 0}
     - target: {fileID: 3450761047440964101, guid: 623cda9eabbc4544d93a7171d8720bd8,
         type: 3}
@@ -23735,17 +23735,17 @@ PrefabInstance:
     - target: {fileID: 3450761047440964106, guid: 623cda9eabbc4544d93a7171d8720bd8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -254.40298
+      value: -103.16725
       objectReference: {fileID: 0}
     - target: {fileID: 3450761047440964106, guid: 623cda9eabbc4544d93a7171d8720bd8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 68.320625
+      value: 59.928402
       objectReference: {fileID: 0}
     - target: {fileID: 3450761047440964106, guid: 623cda9eabbc4544d93a7171d8720bd8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 84.06176
+      value: -334.20782
       objectReference: {fileID: 0}
     - target: {fileID: 3450761047440964106, guid: 623cda9eabbc4544d93a7171d8720bd8,
         type: 3}
@@ -23790,22 +23790,22 @@ PrefabInstance:
     - target: {fileID: 4405647036942663379, guid: 623cda9eabbc4544d93a7171d8720bd8,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.2926194
+      value: 0.4996116
       objectReference: {fileID: 0}
     - target: {fileID: 4405647036942663379, guid: 623cda9eabbc4544d93a7171d8720bd8,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.95622903
+      value: 0.86624956
       objectReference: {fileID: 0}
     - target: {fileID: 4722316819745371261, guid: 623cda9eabbc4544d93a7171d8720bd8,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.95399135
+      value: -0.98820686
       objectReference: {fileID: 0}
     - target: {fileID: 4722316819745371261, guid: 623cda9eabbc4544d93a7171d8720bd8,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.29983416
+      value: -0.1531251
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 623cda9eabbc4544d93a7171d8720bd8, type: 3}
