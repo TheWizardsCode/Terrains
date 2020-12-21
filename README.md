@@ -1,5 +1,11 @@
 Unity Heightmaps, Terrains, Textures, models and configuration files for environment tools in the Unity Asset Store.
 
+# Quickstart
+
+This repository has everything you need to edit the terrains included, but if you simply want to grab a terrain and use it in your project then see the packages in `Assets/Wizards Code/Terains/Terrain Packages/`. Here you will find Unity Packages that contain some of the terrains built in this project. However, please note that some of them use assets that are not open source. The package names indicate if they have any textures or models included in the terrain data. These packages DO NOT include the assets themselves, unless they are open source and included in this repository.
+
+At present we don't clearly indicate which are using open source and which are not, you can only find out by trying them. We'll get more organized in time.
+
 # Terrains
 
 In the `WizardsCode/Terrains/Scenes` folder you will find a number of terrains for your use. For the most part you will want to use these as heightmaps and apply your own texturing and vegetation. However, many of the terrains also come with versions that use a set of open source textures and models to demostrate what they might look like when planted.
