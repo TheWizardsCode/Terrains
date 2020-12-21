@@ -12,5 +12,33 @@ MonoBehaviour:
   m_Script: {fileID: 1599614508, guid: b23c226377283a141b3d7e1ffca2bdb5, type: 3}
   m_Name: Nature Manfacture Beech Forest Palette
   m_EditorClassIdentifier: 
-  m_paletteEntryIDCount: -2147483645
-  m_paletteEntries: []
+  m_paletteEntryIDCount: -2147483638
+  m_paletteEntries:
+  - m_name: prefab_Rock_01
+    m_id: -2147483644
+    m_guid: 3fb55cca399df6942a302264580f2e56
+    m_object: {fileID: 1241668238674838, guid: 3fb55cca399df6942a302264580f2e56, type: 3}
+  - m_name: prefab_Rock_02
+    m_id: -2147483643
+    m_guid: 4209a6b35d2e4074ebca1b48284ff446
+    m_object: {fileID: 1855485174695482, guid: 4209a6b35d2e4074ebca1b48284ff446, type: 3}
+  - m_name: prefab_Rock_03
+    m_id: -2147483642
+    m_guid: 569955c03cedaa643a91c9fe9f83e6ad
+    m_object: {fileID: 1285456526739500, guid: 569955c03cedaa643a91c9fe9f83e6ad, type: 3}
+  - m_name: prefab_Rock_04
+    m_id: -2147483641
+    m_guid: 46062596d5452a5468e144c7156a6694
+    m_object: {fileID: 1378585237161572, guid: 46062596d5452a5468e144c7156a6694, type: 3}
+  - m_name: prefab_Rock_05
+    m_id: -2147483640
+    m_guid: 7d900f5d15875dd4290ab23375937555
+    m_object: {fileID: 1343707792729484, guid: 7d900f5d15875dd4290ab23375937555, type: 3}
+  - m_name: prefab_Rock_06
+    m_id: -2147483639
+    m_guid: 9571a631b852038429d41f5c4dc92bf3
+    m_object: {fileID: 1332372872139496, guid: 9571a631b852038429d41f5c4dc92bf3, type: 3}
+  - m_name: prefab_Rock_07
+    m_id: -2147483638
+    m_guid: 34913eb9d7212644c8816b884847960a
+    m_object: {fileID: 1373413698889372, guid: 34913eb9d7212644c8816b884847960a, type: 3}

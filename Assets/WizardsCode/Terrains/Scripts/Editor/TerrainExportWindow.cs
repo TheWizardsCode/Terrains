@@ -16,9 +16,9 @@ namespace WizardsCode.EditorUtils
     public class TerrainExportWindow : EditorWindow
     {
         static string m_TerrainPackagesDirectory = "Assets/WizardsCode/Terrains/Terrain Packages";
-        static string m_TerrainSceneDirectory = "Assets/WizardsCode/Terrains/Scenes";
-        static string m_TerrainDataDirectory = "Assets/WizardsCode/Terrains/Terrain Data";
-        static string m_TerrainLayersDirectory = "Assets/WizardsCode/Terrains/Terrain Layers";
+        static string m_TerrainSceneDirectory = m_TerrainPackagesDirectory + "/Scenes";
+        static string m_TerrainDataDirectory = m_TerrainPackagesDirectory + "/Terrain Data";
+        static string m_TerrainLayersDirectory = m_TerrainPackagesDirectory + "/Terrain Layers";
 
         bool exportWithTextures = false;
         bool exportWithDetails = false;
